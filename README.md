@@ -11,7 +11,7 @@ ADD - Add item to inventory, INPUT: sku(number) name(string) quantity(number) pr
 END - Closes the adding inventory stage and moves to next stage; INPUT: None
 
 
-Second stage has the following commands (STDIN):
+Second stage has the following commands (STDIN): <br>
 ADD - Adds an item in the current shopping cart;  INPUT: sku(number) quantity(number); e.g. ADD 1 1
 
 REMOVE - Removes an item from the shopping cart; INPUT: sku(number) quantity(number); e.g. REMOVE 1 1
@@ -21,27 +21,27 @@ CHECKOUT - Print all items (every line consist of a single item, quantity, and p
 END - Closes the stage and exits the program; INPUT: None
 
 Please note:
--You can run the command ADD/REMOVE as many times as you want, and in any order after building out the INVENTORY stage.
--String contains no space (single word)
--Use a language you’re most comfortable with
--Write production quality code
--Please comment your decisions
--Unit testing is desireable
+-You can run the command ADD/REMOVE as many times as you want, and in any order after building out the INVENTORY stage.<br>
+-String contains no space (single word) <br>
+-Use a language you’re most comfortable with <br>
+-Write production quality code <br>
+-Please comment your decisions <br>
+-Unit testing is desireable <br>
 
-Example:
-Program STDIN:
-ADD 1 T-Shirt 5 5.99
-ADD 2 Badge 10 0.99
-END
-ADD 1 1
-ADD 2 3
-CHECKOUT
-ADD 1 1
-CHECKOUT
-END
-Program STDOUT:
-T-shirt 1 x 5.99 = 5.99
-Badge 3 x 0.99 = 2.97        
-TOTAL = 8.96
-T-shirt 1 x 5.99 = 5.99
-TOTAL = 5.99
+Example: <br>
+Program STDIN: <br>
+ADD 1 T-Shirt 5 5.99 <br>
+ADD 2 Badge 10 0.99 <br>
+END <br>
+ADD 1 1 <br>
+ADD 2 3 <br>
+CHECKOUT <br>
+ADD 1 1 <br>
+CHECKOUT <br>
+END <br>
+Program STDOUT: <br>
+T-shirt 1 x 5.99 = 5.99 <br>
+Badge 3 x 0.99 = 2.97 <br>
+TOTAL = 8.96 <br>
+T-shirt 1 x 5.99 = 5.99 <br>
+TOTAL = 5.99 <br>
