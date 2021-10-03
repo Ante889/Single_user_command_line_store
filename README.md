@@ -21,12 +21,12 @@ CHECKOUT - Print all items (every line consist of a single item, quantity, and p
 END - Closes the stage and exits the program; INPUT: None
 
 Please note:
-You can run the command ADD/REMOVE as many times as you want, and in any order after building out the INVENTORY stage.
-String contains no space (single word)
-Use a language you’re most comfortable with
-Write production quality code
-Please comment your decisions
-Unit testing is desireable
+-You can run the command ADD/REMOVE as many times as you want, and in any order after building out the INVENTORY stage.
+-String contains no space (single word)
+-Use a language you’re most comfortable with
+-Write production quality code
+-Please comment your decisions
+-Unit testing is desireable
 
 Example:
 Program STDIN:
